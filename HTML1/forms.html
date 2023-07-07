@@ -13,13 +13,13 @@
 
         <label>
             Username :
-            <input type="text" placeholder="Enter your name"/>
+            <input type="text" placeholder="Enter your name" name="username" />
         </label>
 
         <p>Without Label</p>
 
         <p>Password :</p>
-        <input type="password" placeholder="Enter the password"/><br><br>
+        <input type="password" placeholder="Enter the password" name="password"/><br><br>
 
         Number :<input type="number"/><br><br>
 
@@ -27,12 +27,70 @@
         <input type="time" id="mytime"/>
         
         <p>Color in which color picker is opened :</p>
-        <input type="Color"/>
+        <input type="Color"/><br>
+        <input type="checkbox" name="age" id="age" checked>
+        <label for="age">I am 18+</label>
+        <div>Grouped
+            <input type="radio" name="fruit" id="apple" >
+            <label for="radio">Apple</label>
+            <input type="radio" name="fruit" id="mango" >
+            <label for="radio">Mango</label>
+            <input type="radio" name="fruit" id="pear" >
+            <label for="radio">Pear</label>
+        </div>
+        <div>Ungrouped
+            <input type="radio" name="fruit3" id="apple" >
+            <label for="radio">Apple</label>
+            <input type="radio" name="fruit1" id="mango" >
+            <label for="radio">Mango</label>
+            <input type="radio" name="fruit2" id="pear" >
+            <label for="radio">Pear</label>
+        </div>
+        <div>Grouped with value attribute
+            <input type="radio" name="fruit" id="apple" value="apple" >
+            <label for="radio">Apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="radio">Mango</label>
+            <input type="radio" name="fruit" id="pear" value="pear">
+            <label for="radio">Pear</label>
+        </div>
+        <input type="range" name="volume" id="vol" min="0" max="100" step="10" value="80">
+        <textarea name="feedid="feedback"></textarea>
         <div><br>
             <button>Submit</button>
         </div>
-
-
     </form>
+    <hr>
+    <form action="https://www.google.com/search">
+        <br>
+        <input type="text" placeholder="search in google" name="q" />
+        <div><br>
+            
+            <button>&#128270; SEARCH</button>
+        </div><br>
+        
+    </form>
+
+
+    <form action="none">
+       <h2>Registration Form</h2> 
+       <input type="text" name="first" placeholder="First Name">
+       <input type="text" name="last" placeholder="Last Name">
+       <br>
+       <div>
+        <label for="gender">Please enter your gender</label></label>
+            <select name="gender" id="gender">
+                <option>Select your option</option>
+                <option value="Male" selected>Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        Do you agree to all the terms and conditions?
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">Yes, I agree</label><br>
+        <button>Register</button>
+          </form>
+
+
 </body>
 </html>
