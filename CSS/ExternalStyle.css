@@ -1,3 +1,15 @@
 h1{
-    color:rgb(40, 57, 132);
+    color:rgb(169, 119, 100);
+    background-color:rgb(240, 198, 158);
+}
+
+p{
+    color:brown;
+    background-color:rgb(240, 198, 158);
+}
+button{
+    color:#ffffff;
+    border-radius: 10%;
+    border-color:rgb(181, 114, 27); 
+    background-color:rgb(245, 159, 98);
 }
