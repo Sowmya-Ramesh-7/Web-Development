@@ -5,91 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="Portfolio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 </head>
 <body>
+  <div class="main_box">
+      <input type="checkbox" id="check" />
+      <div class="btn_one">
+        <label for="check" >
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </div>
+
+      <div class="sidebar_menu">
+        <div class="btn_two">
+          <label for="check" style="color: grey">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <i class="fa-solid fa-user-graduate"></i>
+              <a href="#">Education</a>
+            </li>
+            <li>
+              <i class="fa-sharp fa-solid fa-diagram-project"></i>
+              <a href="#">Projects</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-trophy"></i>
+              <a href="#">Achievements</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-calendar-days"></i>
+              <a href="#">Extracurricular Activities</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-masks-theater"></i>
+              <a href="#">Hobbies</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-chalkboard-user"></i>
+              <a href="#">Skills</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
     <header>
-        <h1>SOWMYA R</h1>
-        <hr>
-        <h3>CAREER OBJECTIVE</h3>
-        <p>As a growth-oriented person, I would compete with myself and work towards the betterment of the organization and self. With my logical thinking ability, I can solve the problems faced in work.</p>
+        
+        <h1 class="Intro">SOWMYA R</h1>
         <hr>
     </header>
-    
-    <section>
-        <h3>EDUCATION</h3>
-        <ul>
-            <li>MCA | Dayanada Sagar College of Engineering	| Present </li>
-            <li>B.Sc CHP | Bishop Cottons Women’s College | CGPA : 9.19| 2022 </li>
-            <li>II PUC |St. Anne’s Pre-University College | 83.16%| 2019  </li>
-            <li>SSLC |R. T Nagar Educational Trust High School | 92.32%| 2017 </li>
-        </ul>
+    <section class="s0">
+        <div class="left obj">
+            <span style="text-decoration:underline; font-weight: bolder;">ABOUT</span> : <br>
+            <br>Hello ...! <br>
+             I am an MCA student at Dayanada Sagar College of Engineerig. I am a logical thinker with a lot of creativity. <br>At persent, I am working on self-growth with dedication to become a skillful Software Developer.
+        </div>
+        <div class="right">
+            <img id="myimage" src="myimage.jpeg" alt="MY IMAGE">
+        </div>
     </section>
-    <section>
-    <h3>SKILLS</h3>
+        <hr> 
+  <footer>
+      <hr>
+      <h3 class="foot">CONTACT ME</h3>
+      <div class="f">
         <ul>
-            <li>Languages: Java, C, Python</li>
-            <li>Database: SQL </li>
-            <li>Web Development: HTML, CSS, JavaScript</li>
-            <li>Soft Skills: Logical thinking, Problem solving, Creative </li>
+          <li><i class="fa-solid fa-envelope"></i>Soumyaramesh2002@gmail.com</li>
+          <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/s-o-w-m-y-a--r/"> LinkedIn</a></li>
+          <li><i class="fa-brands fa-github"></i><a href="https://github.com/Sowmya-Ramesh-7"> Github</a></li>
         </ul>
-    </section>
-    <section>
-        <h3>PROJECTS</h3>
-        <ul>
-            <li>Online Gift Store Management System – ST Gift Store | Jun-Aug 2022
-                <ul>
-                    <li>Technology: Visual Basic 6.0, MS Access </li>
-                    <li>At Bishop Cottons Women’s College </li>
-                    <li><a href="https://tinyurl.com/vb6projectsample">Work Samples PDF</a></li>
-                </ul> 
-            </li>
-            <li>Musik Lyrics Feature Design | 
-                <ul>
-                    <li>Technology: Figma </li>
-                    <li>Product Design Virtual Experience Program </li>
-                    <li><a href="https://tinyurl.com/designrationale">Design Rationale PDF</a></li>
-                </ul> 
-            </li>
-        </ul>
-
-    </section>
-                        
-    <section>
-        <h3>ACHIEVEMENTS</h3>
-        <ul>
-            <li><b>Best in Co-curricular Award </b>| Bishop Cottons Women’s College </li>
-            <li><b>100% Attendance Award | 6th Sem </b>| Bishop Cottons Women’s College</li>
-        </ul>
-    </section>
-    <section>
-        <h3>EXTRACURRICULAR ACTIVITIES</h3>
-        <ul>
-            <li>Participated in Open Mobility Challenge| Namma Yatri </li>
-            <li>NSS VOLUNTEER | Bishop Cottons Women’s College </li>
-        </ul>
-    </section>
-    <section>
-        <h3>HOBBIES</h3>
-        <ul>
-            <li>Art & Crafts </li>
-            <li>Jewellery Making </li>
-            <li>Embroidery </li>
-            <li>Tailoring </li>
-            <li>Cooking </li>
-            <li>Pencil Carving </li>
-        </ul>
-    </section>
-    
-<footer>
-    <hr>
-    <h3 class="foot">CONTACT ME</h3>
-    <div class="foot f">
-        <p ><i class="fa fa-envelope"></i> Soumyaramesh2002@gmail.com </p>
-        <p><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/s-o-w-m-y-a--r/"> LinkedIn</a></p>
-        <i class="fa fa-github"></i><a href="https://github.com/Sowmya-Ramesh-7"> Github</a>
-    </div>
-</footer>
+      </div>
+  </footer>
 </body>
 </html>

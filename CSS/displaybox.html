@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display & relative units</title>
+    <style>
+        .box{
+            height: 200px;
+            width:200px;
+            border: 1px solid black;
+            margin:4px;
+            background-color: aquamarine;
+            display:inline-block;
+        }
+
+        #parent{
+            height: 200px;
+            width:200px;
+            border: 1px solid black;
+            margin:4px;
+            background-color: aquamarine;
+            display:inline-block;
+        }
+        #child{
+            height: 40%;
+            width:40%;
+            margin:20%; 
+            border: 1px solid black;
+            background-color: rgb(33, 192, 139);
+        }
+
+        #parent1{
+            height: 200px;
+            width:200px;
+            border: 1px solid black;
+            margin:4px;
+            background-color: aquamarine;
+            font-size: 20px;
+            
+        } 
+        #child1{
+            width:100px;
+            height:100px;
+            font-size: 1.5em;
+            margin:1em;
+            position:absolute;
+            left:100px;
+            border: 1px solid black;
+            background-color: rgb(33, 192, 139);
+            
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+    <p>RELATIVE UNITS</p>
+    <div id="parent">
+        <div id="child"> </div>
+    </div>
+
+    <div id="parent1">
+        This is parent
+        <div id="child1"> This is child </div>
+    </div>
+</body>
+</html>
