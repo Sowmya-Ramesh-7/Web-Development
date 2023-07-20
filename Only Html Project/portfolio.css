@@ -6,7 +6,6 @@
 }
 
 
-
 /*menu*/
 
 #check{
@@ -88,7 +87,6 @@
     opacity:1;
 }
 
-
 /*Body */
 
 body{
@@ -97,13 +95,12 @@ body{
     line-height: 1.5;
 }
 
-.obj{
-    
+.obj{  
     font-size: 160%;
     margin: 1em;
     color: rgb(217, 186, 232);
-
 }
+
 
 #myimage{
     display: flex;
@@ -123,24 +120,16 @@ body{
 
 .s0{
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-
+    justify-content: space-evenly;
 }
 
 .left{
-    margin-top: 80px ;
-    margin-left: 40px;
     padding:5px;
     width:65%;
-    justify-content: center;
 }
 
 .right{
     width:30%;
-    display: flex;
-    justify-content: center;
-    margin-top:30px;
 }
 
 h1{
@@ -162,5 +151,6 @@ h1{
     margin:5px;
     padding:5px;
     list-style-type: none;
+    
 }
 
