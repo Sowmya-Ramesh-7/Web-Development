@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display & relative units</title>
     <style>
+        .flexbox{
+            height: 200px;
+            width:500px;
+            border: 1px solid black;
+            display:flex;
+            flex-direction:column;
+            flex-wrap:wrap;
+            align-items: center;
+            align-content:space-evenly;
+            justify-content:space-evenly;
+            
+        }
+        .flexitems{
+            height: 50px;
+            width:50px;
+            border: 1px solid black;
+            background-color: aquamarine;
+            
+        }
+
         .box{
             height: 200px;
             width:200px;
@@ -55,6 +75,14 @@
 
 </head>
 <body>
+    <div class="flexbox">
+        <div class="flexitems"></div>
+        <div class="flexitems"></div>
+        <div class="flexitems"></div>
+        <div class="flexitems"></div>
+        <div class="flexitems"></div>
+        <div class="flexitems"></div>
+    </div>
     <div class="box"></div>
     <div class="box"></div>
     <div class="box"></div>
