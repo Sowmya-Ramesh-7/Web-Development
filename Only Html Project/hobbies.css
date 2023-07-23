@@ -2,9 +2,7 @@
     margin:0;
     padding:0;
     font-family: 'Poppins', sans-serif;
-
 }
-
 
 /*menu*/
 
@@ -80,61 +78,19 @@
 }
 
 #check:checked ~ .btn_one{
-    opacity:0;
+    opacity:1;
 }
 
 #check:checked ~ .sidebar_menu .btn_two{
     opacity:1;
 }
-
-/*Body */
+/* BODY */
 
 body{
-    color:white;
+    color: rgb(217, 186, 232);
+    font-family: 'Poppins', sans-serif;
     background-color: rgb(45, 8, 63);
     line-height: 1.5;
-}
-
-.obj{  
-    font-size: 160%;
-    margin: 1em;
-    color: rgb(217, 186, 232);
-}
-
-
-#myimage{
-    width: 250px;
-    margin: 5px;
-    border-radius: 50%;
-    border: 3px solid white;
-    height: 350px;
-    transition: 1s;
-    box-shadow: 2px 2px 18px rgb(219, 131, 239);
-    
-}
-#myimage:hover{
-    transform: scale(1.1);
-    box-shadow: 2px 2px 10px rgb(219, 131, 239);
-}
-
-.s0{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    margin-bottom: 50px ;
-}
-
-.right{ 
-    display: flex;
-    justify-content: space-around;
-    width:65%;
-}
-
-.left{
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
-    width:30%;
 }
 
 h1{
@@ -143,46 +99,66 @@ h1{
     letter-spacing: 0.1em;
     color: rgb(217, 186, 232);
 }
-
-
-.foot{
-    text-align: center;
-    font-family: "Brush Script MT";
-    letter-spacing: 2px;
-    font-size: 110%;
-    padding:5px;
+.cards{
+    padding:20px;
+    border-radius: 1%;
+    border-bottom: 2px solid white;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+    height:300px;
+    width:200px;
+    margin: 30px;
+    transition: all 0.3s linear;
 }
-.f li{
+.cards:hover{ 
+    transform: scale3d(1.05, 1.05, 0.3);;
+}
+.heading{
     text-align: center;
-    margin:5px;
-    padding:5px;
-    list-style-type: none;
-    
+    margin: 25px;
+    text-decoration: underline;
+}   
+
+.hobby1{
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    overscroll-behavior-inline: contain;
+    overscroll-behavior: ;
+}
+.top{
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    height:80%;
+    background-color: azure;
+}
+.bottom{
+    height:20%;
+    margin: 10px;
+    text-align: center;
+    font-size:x-large;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 1%;
+}
+img{
+    border: 1px solid white;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    height:240px;
+    width: 198px;
+
 }
 
-@media(max-width:768px){
-    .s0{
-        flex-direction: column;
-        justify-content: center;
+@media(max-width:470px){
+    h1{
+        font-size: 18px;
+        padding: 5px;
     }
-    .obj{
-        font-size: 100%;
+    .btn_one{
+        font-size: 18px;
+        line-height: 40px;
     }
-    #myimage{
-        width: 155px;
-        height: 220px;
+    .btn_one:hover{
+        font-size: 25px;
     }
-    .right{ 
-        width:100%;
-    }
-    
-    .left{
-        margin: 10px;
-        width:100%;
-    }
-    .foot{
-        font-size: 90%;
-    }
-
 }
 
