@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 /*menu*/
 
 #check{
@@ -99,14 +100,18 @@ h1{
     letter-spacing: 0.1em;
     color: rgb(217, 186, 232);
 }
+
+ul{
+    list-style-type: none;
+}
+
 .cards{
     padding:20px;
     border-radius: 1%;
-    border-bottom: 2px solid white;
     box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
-    height:300px;
-    width:200px;
-    margin: 30px;
+    height: 500px;
+    
+    margin: 5%;
     transition: all 0.3s linear;
 }
 .cards:hover{ 
@@ -117,48 +122,49 @@ h1{
     margin: 25px;
     text-decoration: underline;
 }   
-
-.hobby1{
+.bottom{
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    height:80%;
+    background-color: azure;
+    margin-bottom:10px;
     display: grid;
     grid-auto-flow: column;
     overflow-x: scroll;
     overscroll-behavior-inline: contain;
     
 }
-.top{
-    border-top-left-radius: 1%;
-    border-top-right-radius: 1%;
-    height:80%;
-    background-color: azure;
+img{
+    margin: 50px;
 }
-.bottom{
+
+.top{
     height:20%;
     margin: 10px;
     text-align: center;
     font-size:x-large;
     border-bottom-left-radius: 1%;
     border-bottom-right-radius: 1%;
+    
 }
-img{
-    border: 1px solid white;
-    border-top-left-radius: 1%;
-    border-top-right-radius: 1%;
-    height:240px;
-    width: 198px;
-
+.overview{
+    marigin:50px;
+    padding: 10px;
 }
 
-@media(max-width:470px){
-    h1{
-        font-size: 18px;
-        padding: 5px;
+@media(max-width:750px){
+    img{
+        width:400px;
+       margin: 10px;
+       margin-top: 50px;
     }
-    .btn_one{
-        font-size: 18px;
-        line-height: 40px;
+    .top{
+        height:25%;
+        margin: 5px;
+        text-align: center;
+        font-size:medium;
     }
-    .btn_one:hover{
-        font-size: 25px;
+    .bottom{
+        height:75%;
     }
 }
-
