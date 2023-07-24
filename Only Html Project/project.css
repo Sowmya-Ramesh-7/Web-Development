@@ -136,6 +136,8 @@ ul{
 }
 img{
     margin: 50px;
+    height: 320px;
+    width:602px;
 }
 
 .top{
@@ -149,7 +151,9 @@ img{
 }
 .overview{
     marigin:50px;
-    padding: 10px;
+    padding: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 @media(max-width:750px){
@@ -162,7 +166,7 @@ img{
         height:25%;
         margin: 5px;
         text-align: center;
-        font-size:medium;
+        font-size:large;
     }
     .bottom{
         height:75%;
