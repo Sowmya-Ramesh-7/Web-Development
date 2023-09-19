@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FavMovie</title>
+    <script type="text/javascript"> 
+        const fav="Avatar";
+        let guess=prompt("Guess my favorite movie");
+        while(guess != fav)
+        {
+            if(guess == "quit"){
+                document.write("*************Game End*****************");
+                break;
+            }
+            document.write("Wrong");
+            guess=prompt("Try again");
+        }
+        if(guess == fav){
+            document.write("Congratulations you have guess it right !!....");
+        }
+    </script>
+</head>
+<body>
+
+    
+</body>
+</html>
