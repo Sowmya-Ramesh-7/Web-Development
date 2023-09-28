@@ -26,5 +26,5 @@ app.get("*",(req,res)=>{
 });
 
 app.post("/",(req,res)=>{
-    res.send("<h1>You sent a post request</h1>");
+    res.send("<h1>hi, You sent a post request</h1>");
 });
