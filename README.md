@@ -2,6 +2,7 @@
 This Repository contains my web devlopment learning journey
 
 1. HTML
+
     Basic Html tags like a, img, hr, br, p
     Table - tr, th, colspan, cellspacing, padding
     Lists - ol, ul, dl
@@ -12,6 +13,7 @@ This Repository contains my web devlopment learning journey
     comments
 
 2. CSS
+
     Internal, External, Inline
     display - block, inline, flex
     transform
@@ -19,6 +21,7 @@ This Repository contains my web devlopment learning journey
     media queries
 
 3. Javascript
+
     Operators
     conditions
     Loops
