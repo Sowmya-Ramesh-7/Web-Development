@@ -168,6 +168,8 @@ let getRandomUser=()=>{
         faker.internet.password()
     ]
 };
+
+
 // let data=[];
 // for(let i=0;i<100;i++){
 //     data.push(getRandomUser());
