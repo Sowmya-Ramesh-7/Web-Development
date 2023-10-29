@@ -1,0 +1,18 @@
+.chat{
+    padding:10px 60px 10px 60px;
+    margin:20px;
+    border-radius: 20px;
+    display:inline-block;
+}
+.chat:nth-of-type(odd){
+    background-color:rgba(0, 255, 213, 0.434);
+}
+.chat:nth-of-type(even){
+    background-color:rgba(0, 136, 111, 0.434);
+}
+.msg{
+    background-color: rgba(10, 203, 129, 0.79);
+    padding:10px 60px 10px 60px;
+    border-radius: 20px;
+    margin:20px;
+}
